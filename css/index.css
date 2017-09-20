@@ -1,0 +1,27 @@
+body {
+    text-align: center
+}
+nav li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 30px;
+    color: #143567;
+    text-shadow: 0 1px 0 white;
+}
+nav li {
+    float: left;
+    list-style: none;
+}
+img[src="img/my-foto.jpg"]{
+        width: 30%;
+}
+img[src="img/ride-bmx.jpg"]{
+        width: 80%;
+}
+iframe {
+    width: 80%;
+}
+img[src="img/university-logo.jpg"]{
+        width: 23%;
+}
