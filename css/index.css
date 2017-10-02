@@ -1,27 +1,37 @@
+html {
+  max-width: 1440px; 
+  margin: 0 auto;
+  background-image: url(../img/beckground-image.jpg);
+  background-attachment:fixed;
+  
+}
 body {
-    text-align: center
+    max-width: 900px;
+    margin: 0 auto;
+    background-attachment:fixed;
+    text-align: center;
 }
-nav li a {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 0 30px;
-    color: #143567;
-    text-shadow: 0 1px 0 white;
+header {
+    width: 900px;
+    padding: 10px 20px;
+    background-color: #c9cfd8;
+    opacity: 0.5;
 }
-nav li {
-    float: left;
-    list-style: none;
+#home {
+    font-family: 'Indie Flower', cursive;
+    padding: 10px 20px;
+    
 }
-img[src="img/my-foto.jpg"]{
-        width: 30%;
+a {
+font-weight: bold;
+text-decoration:none;
 }
-img[src="img/ride-bmx.jpg"]{
-        width: 80%;
+#portfolio {
+    width: 900px; 
 }
-iframe {
-    width: 80%;
+#portfolio-foto {
+   width: 100%; 
 }
-img[src="img/university-logo.jpg"]{
-        width: 23%;
+#university-logo {
+    width: 100px; 
 }

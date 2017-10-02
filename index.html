@@ -10,21 +10,19 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#links">LINKS</a></li>
-                <li><a href="#contact-me">CONTACT ME</a></li>
-            </ul>
+            <a href="#home">HOME</a></li>
+            <a href="#about">ABOUT</a></li>
+            <a href="#education">EDUCATION</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#links">LINKS</a>
+            <a href="#contact-me">CONTACT ME</a>
         </nav>
     </header>
     <main>
         <section id="home">
-             <img src="img/bohdan-klius.jpg" alt="Bodan Klius">   
+             <img src="img/bohdan-klius.jpg" alt="Bohdan Klius">   
              <h1>BOHDAN KLIUS</h1>
-             <p>BMX Rider Funnboy DUDE</p>
+             <p>BMX Rider, Funnboy, DUDE</p>
         </section>
         <section id="about">
             <h2>ABOUT</h2>
@@ -39,11 +37,11 @@
             <p> Sep 2013 - Jun20017</p>
             <p>Uzhhorod National University</p>
             <p>Information technology</p>
-            <img src="img/university-logo.jpg" alt="Uzhhorod National University logo">
+            <img id="university-logo" src="img/university-logo.jpg" alt="Uzhhorod National University logo">
         </section>
         <section id="portfolio">
             <h2>PORTFOLIO</h2>
-            <img src="img/ride-bmx.jpg" alt="Ride on BMX">
+            <img id="portfolio-foto" src="img/ride-bmx.jpg" alt="Ride on BMX">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Kq2kK4ncXY4" frameborder="0" allowfullscreen></iframe>
         </section>
         <section id="links">
@@ -64,17 +62,22 @@
                     <br>
                 <label>
                         Your address:
-                    <input type="email" name="client-email" placeholder="Your address" required>
+                    <input type="email" name="client-email" id="client-email" placeholder="Your address" required>
                 </label>
                     <br>
                 <label>
                         Your message:
-                        <textarea></textarea>
+                        <textarea type="message" name="client-message" id="client-message" placeholder="Your message"></textarea>
                 </label>
                     <br>
                 <input type="submit" value="SEND">    
         	</form>
+        	<div id="message-box"></div>
         </div>	
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>
