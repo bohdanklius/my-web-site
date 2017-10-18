@@ -16,6 +16,7 @@ header {
     padding: 10px 20px;
     background-color: #c9cfd8;
     opacity: 0.5;
+    position: fixed;
 }
 #home {
     font-family: 'Indie Flower', cursive;
